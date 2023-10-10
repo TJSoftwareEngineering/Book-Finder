@@ -1,0 +1,62 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <title>Book Finder</title>
+</head>
+<body>
+
+	<div class='console-container'>
+		Recommend <br> Me a
+		<br>
+		<span id='text'>
+		</span><div class='console-underscore' id='console'>&#95;</div>
+		<br>
+		Book.
+		
+	</div>
+
+	<div id='info'>
+		<div id='infoText'>
+			<img id='logo' src='assets/g-logo.png'>
+			<br>
+			Powered By
+			<br>
+			Google Books API
+		</div>
+	</div>
+	<div id='splashCircle1'> </div>
+	<div id='splashCircle2'> </div>
+
+
+  <div id='inputContainer' class="container">
+
+    <form id="recommendationForm">
+      <label id='inputLabel' for="genreInput">Enter a genre:</label>
+	  <br>
+      <input class='with-conic-gradient' type="text" id="genreInput" required>
+	  <br>
+	  <div id='submitWrapper'>
+		<!-- <button id='submitButton'  type="submit">Get Recommendations</button> -->
+		
+		<button id='submitButton' class="button" type='submit'>
+			<span class="button_lg">
+				<span class="button_sl"></span>
+				<span class="button_text">Get Recommendations</span>
+			</span>
+		</button>
+		
+		
+	  </div>
+    </form>
+    <div id="recommendations"></div>
+  </div>
+  <script src="engine.js"></script>
+  <script src="texteffect.js"></script>
+</body>
+</html>
