@@ -1,2 +1,2 @@
 # Book-Finder
-Web app that utilizing the Google Books API to give recommendations.
+Web app that utilizes the Google Books API to give recommendations.
